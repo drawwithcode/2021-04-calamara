@@ -69,6 +69,7 @@ function setup() {
   button = createButton("ask a new question");
   button.position(windowWidth / 2 - 120, windowHeight / 2 + 300);
   button.mousePressed(goBack);
+  button.position(windowWidth / 2 - 120, windowHeight - 100);
 
   myText = createElement("h1", "The universe is answering...");
 }
